@@ -28,6 +28,7 @@ def find_UPC(first11):
 
 
 # Ask for a UPC until the user enters a valid one
+# Keep asking user until valid 12-digit UPC is entered
 while True:
     upc = input("Enter a 12-digit UPC: ")
 
