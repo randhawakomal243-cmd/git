@@ -53,7 +53,7 @@ correct_check_digit = find_UPC(first11)
 print(f"The expected check digit is {correct_check_digit}.")
 print()
 
-# Compare the digits
+# Compare calculated digit with user input
 if correct_check_digit == user_check_digit:
     print("This is a VALID UPC.")
 else:
