@@ -7,6 +7,7 @@ Date: 06/18/2026
 """
 # This function calculates UPC check digit using standard formula
 def find_UPC(first11):
+    # Apply UPC check digit formula (odd + even calculation)
     # Add digits in odd positions
     odd_total = 0
     for i in range(0, 11, 2):
