@@ -5,7 +5,7 @@ Purpose: Check if a 12-digit UPC code is valid.
 Starter Code: None
 Date: 06/18/2026
 """
-
+# This function calculates UPC check digit using standard formula
 def find_UPC(first11):
     # Add digits in odd positions
     odd_total = 0
